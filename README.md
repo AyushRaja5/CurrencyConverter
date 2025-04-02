@@ -1,50 +1,60 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Currency Converter App
 
-## Get started
+## Introduction
+This is a simple currency converter app built using React Native with Expo. It fetches live exchange rates from the Frankfurter API and allows users to convert between different currencies.
 
-1. Install dependencies
+## Features
+- Convert currency in real-time using the latest exchange rates.
+- Select source and target currencies from a dropdown list.
+- Input the amount to be converted.
+- Displays the converted amount instantly.
+- Handles invalid inputs and errors gracefully.
 
-   ```bash
+## Installation & Setup
+
+1. Install [Node.js](https://nodejs.org/) if not already installed.
+2. Install Expo CLI globally using:
+   ```sh
+   npm install -g expo-cli
+   ```
+3. Clone the repository:
+   ```sh
+   Use the line above
+   ```
+4. Navigate to the project folder:
+   ```sh
+   cd currency-converter-app
+   ```
+5. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+6. Start the Expo development server:
+   ```sh
+   npm expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Install the Expo Go app on your mobile device:
+   - [Android (Play Store)](https://play.google.com/store/apps/details?id=host.exp.exponent)
+   - [iOS (App Store)](https://apps.apple.com/app/expo-go/id982107779)
+2. Run the app using:
+   ```sh
+   expo start
+   ```
+3. Scan the QR code displayed in the terminal or browser using the Expo Go app.
+4. The app will launch on your device.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Troubleshooting
+- If the app doesn’t load, restart the Expo server and try again:
+  ```sh
+  expo start -c
+  ```
+- Ensure your mobile device and development machine are connected to the same Wi-Fi network.
+- If using a physical device, enable developer mode in Expo Go settings.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contributing
+Feel free to submit issues and pull requests to improve the app!
